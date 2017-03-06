@@ -1,0 +1,14 @@
+.headline {
+	padding: 50px;
+
+}
+
+.headline_title {
+	text-align: center;
+	font-size: 4em;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 2px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
