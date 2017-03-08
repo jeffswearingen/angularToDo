@@ -1,5 +1,5 @@
 angular
-	.module('toDo.completed')
+	.module('toDoList.completed')
 	.config(completedConfig);
 
 function completedConfig($stateProvider) {

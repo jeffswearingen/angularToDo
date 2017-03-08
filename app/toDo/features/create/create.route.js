@@ -1,5 +1,5 @@
 angular
-	.module('toDo.create')
+	.module('toDoList.create')
 	.config(createConfig);
 
 function createConfig($stateProvider) {

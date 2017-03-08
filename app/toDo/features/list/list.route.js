@@ -1,5 +1,5 @@
 angular
-	.module('toDo.list')
+	.module('toDoList.list')
 	.config(listConfig);
 
 function listConfig($stateProvider) {

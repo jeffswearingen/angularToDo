@@ -1,2 +1,4 @@
 angular
-	.module('toDo.completed', []);
+	.module('toDoList.completed', [
+		'toDoList.component.item',
+		'toDoList.component.table']);

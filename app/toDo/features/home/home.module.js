@@ -1,2 +1,2 @@
 angular
-	.module('toDo.home', []);
+	.module('toDoList.home', []);

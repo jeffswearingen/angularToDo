@@ -1,5 +1,5 @@
 angular
-	.module('toDo.home')
+	.module('toDoList.home')
 	.controller('HomeCtrl', HomeCtrl);
 
 function HomeCtrl() {

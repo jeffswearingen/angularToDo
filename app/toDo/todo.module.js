@@ -1,13 +1,13 @@
 angular
-	.module('toDo', [
+	.module('toDoList', [
 		// Global Dependencies
 		'ui.router',
 
 		// Features
-		'toDo.home',
-		'toDo.create',
-		'toDo.completed',
-		'toDo.list'
+		'toDoList.home',
+		'toDoList.create',
+		'toDoList.completed',
+		'toDoList.list'
 	])
 	.config(appConfig);
 

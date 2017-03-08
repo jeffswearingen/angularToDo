@@ -1,2 +1,5 @@
 angular
-	.module('toDo.create', []);
+	.module('toDoList.create', [
+		'toDoList.component.item',
+		'toDoList.component.table'
+		]);

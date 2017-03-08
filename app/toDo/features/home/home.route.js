@@ -1,5 +1,5 @@
 angular
-	.module('toDo.home')
+	.module('toDoList.home')
 	.config(homeConfig);
 
 function homeConfig($stateProvider) {

@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="toDo/layout/assets/styles/layout.css">		
 	</head>
-	<body ng-app="toDo">
+	<body ng-app="toDoList">
 
 	<div class="container-fluid" class="headline">
 		<div class="headline_title">AngularJS To-Do</div>
@@ -35,7 +35,10 @@
 	<script src="toDo/features/list/list.controller.js"></script>
 	<script src="toDo/features/list/list.route.js"></script>
 
+	<script src="toDo/features/components/item/item.module.js"></script>
+	<script src="toDo/features/components/item/item.directive.js"></script>
 	
-
+	<script src="toDo/features/components/table/table.module.js"></script>
+	<script src="toDo/features/components/table/table.service.js"></script>
 	</body>
 </html>
