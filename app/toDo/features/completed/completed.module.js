@@ -1,0 +1,2 @@
+angular
+	.module('toDo.completed', []);
