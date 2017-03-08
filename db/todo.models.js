@@ -15,6 +15,6 @@ var ToDoItems = new Schema ({
 	}
 });
 
-var Todo = mongoose.model('Todo', TodoItems);
+var Todo = mongoose.model('Todo', ToDoItems);
 
 module.exports = Todo;

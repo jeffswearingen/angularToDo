@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/toDoList');
+mongoose.connect('mongodb://localhost/toDo');
 var db = mongoose.connection;
 
 db.on('error', function(error) {
