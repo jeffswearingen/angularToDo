@@ -14,5 +14,5 @@ angular
 function appConfig($urlRouterProvider) {
 
 	// If URL does not exist as a route, redirect to /
-	$urlRouterProvider.otherwise('/');
+	$urlRouterProvider.otherwise('/create');
 }
