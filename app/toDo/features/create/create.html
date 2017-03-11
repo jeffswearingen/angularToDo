@@ -1,8 +1,10 @@
 Create
-
-<form>
-	To-Do: <input type="text" name="todoitem" placeholder="What do you need to do?" ng-model=
-	"CreateVM.items.toDoItem"></input><br/>
-	Due: <input type="date" name="tododate" ng-model="CreateVM.items.dueDate" datepicker></input><br/>
-	<button type="submit" ng-click="CreateVM.addItem(CreateVM.items.toDoItem, CreateVM.items.dueDate)">Create To-Do</button>
-</form>
+<navbar></navbar>
+<div>
+	<form>
+		To-Do: <input type="text" name="toDoItem" placeholder="What do you need to do?" ng-model=
+		"CreateVM.items.toDoItem"></input><br/>
+		Due: <input type="date" name="dueDate" ng-model="CreateVM.items.dueDate" datepicker></input><br/>
+		<input type="button" value="Add New Item" ng-click="CreateVM.addItem(CreateVM.items.toDoItem, CreateVM.items.dueDate)">
+	</form>
+</div>

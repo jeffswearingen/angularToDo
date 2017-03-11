@@ -23,15 +23,12 @@ function TableService($http) {
 				});
 			});
 		},
-		updateItem: function(id, completed) {
+		updateItem: function(table) {
 			$http({
 				method: 'PUT',
 				url: '/api/table',
-				data: {
-					_id: id,
-					completed: bool
-				}
-			}).then(function(response) {
+				data: table
+			}).then(function(err, response) {
 				if(err) throw err;
 			})
 		}

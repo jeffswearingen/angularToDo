@@ -9,7 +9,7 @@ module.exports = function(app) {
 	app.post('/api/table', function(req, res) {
 		var newItem = new Todo ({
 			text: req.body.toDoItem,
-			date: req.body.date,
+			date: req.body.dueDate,
 			completed: false
 		})
 

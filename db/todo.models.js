@@ -3,11 +3,11 @@ mongoose.Promise = Promise;
 
 var Schema = mongoose.Schema;
 
-var ToDoItems = new Schema ({
-	todo: {
+var TodoItems = new Schema ({
+	text: {
 		type: String
 	},
-	completeBy: {
+	date: {
 		type: Date
 	}, 
 	completed: {
@@ -15,6 +15,6 @@ var ToDoItems = new Schema ({
 	}
 });
 
-var Todo = mongoose.model('Todo', ToDoItems);
+var Todo = mongoose.model('Todo', TodoItems);
 
 module.exports = Todo;

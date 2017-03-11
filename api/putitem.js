@@ -10,7 +10,7 @@ module.exports = function(app) {
 		ToDo.findByIdAndUpdate(req.body._id, {completed: req.body.completed}, function(err, post) {
 			if (err) return next(err);
 			console.log(post);
-			res.send(200);
+			res.sendStatus(200);
 		});
 	})
 }

@@ -5,7 +5,7 @@ angular
 function CompletedCtrl($scope, $http) {
 	var vm = this;
 
-	var items = [];
+	vm.items = [];
 
 	$http({
 		method: 'GET',

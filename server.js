@@ -16,6 +16,7 @@ app.use(bodyParser.text({ type: 'text/html'}))
 
 var getRoute = require('./api/getitem.js')(app);
 var postRoute = require('./api/postitem.js')(app);
+var putRoute = require('./api/putitem.js')(app);
 
 app.use(express.static(__dirname + "/app"));
 
